@@ -10,7 +10,7 @@ function createCard(product) {
         <p class="product-card__price">$${product.FinalPrice}</p>
     </a>
 </li>
-    `
+    `;
 }
 export default class ProductListing {
     constructor(category, dataSource, listElement) {
